@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <script src="./JS/script.js" ></script>
+</head>
+<body>
+    <div class="container" id="header">
+        <h1>DojoNary</h1>
+        <input type="text" name="search" placeholder="Search">
+        <button onclick="logout(this)" id="log">Login</button>
+    </div>
+    <div class="container">
+        <div>
+            <div class="definition">
+                <div>
+                    <h2>Ninja</h2>
+                    <h4><i>noun</i></h4>
+                    <h6>Plural: <i>ninjas</i></h6>
+                    <button type="button" onclick="like(this)" class="like_button"><a class="numLike">0</a> Like</button>
+                </div>
+                <p>Apractitioner skilled in the <a href="https://www.dictionary.com/browse/japanese">Japanese</a> art of <a href="https://www.dictionary.com/browse/ninjutsu">ninjutsu</a></p>
+            </div>    
+            <div class="definition">
+                <div>
+                    <h2>Ninja</h2>
+                    <h4><i>noun</i></h4>
+                    <h6>Plural: <i>ninjas</i> </h6>
+                    <button type="button" onclick="like(this)" class="like_button"><a class="numLike">0</a> Like</button>
+                </div>
+                <p>A <a href="https://www.dictionary.com/browse/programmer"> programmer</a> who breaks down problems with <a href="https://www.dictionary.com/browse/zen">-like focus</a></p>
+            </div> 
+        </div>
+        <div id="minicont_right">
+            <P>Dojonary is defined by <b>YOU</b></P>
+            <button id="add" onclick="esconde(this)">Add Definition</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+* {
+    /* outline: red 1px solid; */
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.container {
+    padding: 0px 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    margin: 5px 10px;
+    width: 70%;
+    padding-left: 10px;
+}
+
+button {
+    box-shadow: 3px 3px 0px black;
+    background-color: blue;
+    color: aliceblue;
+    border: 2px solid black;
+    width: 80px;
+    margin: 5px;
+}
+
+.definition {
+    margin: 20px 0px;
+    padding: 8px;
+    padding-right: 20px;
+    outline: black 3px solid;
+    text-align: center;
+    display: flex;
+    align-items: center
+}
+
+p  {
+    margin: auto 10px;
+}
+
+#minicont_right {
+    margin: 20px 0px 20px 20px;
+    height: fit-content;
+    padding: 10px;
+    outline: black 3px solid;
+    display: inline;
+}
+
+#add {
+    background-color: rgb(28, 156, 28);
+    width: 80%;
+    padding: 2%;
+}
+
+.like_button {
+    padding: 5% 10%;
+    color: black;
+    background-color: rgb(251, 200, 49);
+}
